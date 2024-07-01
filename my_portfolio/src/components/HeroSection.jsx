@@ -28,13 +28,13 @@ function HeroSection() {
           <div className='text-lg py-5'>
     I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.
     </div>
-    <button className=' text-xl btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' >Check Resume</button>
+    <button className=' btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg ' ><a href='https://drive.google.com/file/d/16MM5oVQQGqWHCTmSM4Sj3PO5NwDU91Ek/view'>Download CV</a></button>
 
         </div>
         {/* right section */}
         <div className=" flex md:w-1/4 order-1 ">
          <div className='flex m-auto justify-center z-10 relative'>
-         <img src={myImage} alt="My Image"  className='rounded-full p-5 min-h-80 z-10'/>
+         <img src={myImage} alt="My Image"  className='rounded-full  min-h-80 z-10 shadow-xl shadow-blue-800'/>
 
          </div>
         </div>

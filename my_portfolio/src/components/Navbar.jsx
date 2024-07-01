@@ -44,7 +44,7 @@ function Navbar() {
                         </li>))}
                 </ul>
 
-                <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' >Github Profile</button>
+                <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' ><a href='https://github.com/pooja-369'>Github Profile</a></button>
             </div>
 
         </div>

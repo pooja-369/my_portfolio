@@ -1,11 +1,11 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-function EducationSection() {
+function ExperienceSection() {
   return (
     <div className='text-white'>
 
     <div className='py-10'>
-    <div className='flex justify-center md:text-5xl text-3xl font-bold md:leading-15'>Education</div>
+    <div className='flex justify-center md:text-5xl text-3xl font-bold md:leading-15'>Experience</div>
       <div className='flex justify-center text-lg py-5 z-20 text-center px-5'>My education has been a journey of self-discovery and growth. My educational details are as follows.</div>
     </div>
 
@@ -83,4 +83,4 @@ function EducationSection() {
   )
 }
 
-export default EducationSection
+export default ExperienceSection
