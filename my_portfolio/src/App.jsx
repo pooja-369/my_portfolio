@@ -8,6 +8,7 @@ import { BrowserRouter } from 'react-router-dom'
 import SkillSection from './components/SkillsSection'
 import ExperienceSection from './components/ExperienceSection'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 function App() {
   
 
@@ -19,6 +20,7 @@ function App() {
   <EducationSection/>
   <Projects/>
   <ExperienceSection/>
+  <Footer/>
   </BrowserRouter>
     <Particle/>
 

@@ -1,4 +1,3 @@
-
 import Image from "../assets/fdbdd.jpg"
 
 function Projects() {
@@ -17,8 +16,8 @@ function Projects() {
                 <div className='absolute inset-0 flex items-end bg-gradient-to-t from-black/60 to-transparent text-white'>
                     <div className='p-4'> My education has been a journey of self-discovery and growth. My educational details are as follows.
                     <div className='flex gap-4  py-4 '>
-                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' ><a href='https://github.com/pooja-369'>Code</a></button>
-                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' ><a href='https://github.com/pooja-369'>Demo</a></button>
+                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg ' ><a href='https://github.com/pooja-369'>Code</a></button>
+                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg ' ><a href='https://github.com/pooja-369'>Demo</a></button>
                 </div>
                     </div>
                
@@ -35,8 +34,8 @@ function Projects() {
                 <div className='absolute inset-0 flex items-end bg-gradient-to-t from-black/60 to-transparent text-white'>
                     <div className='p-4'> My education has been a journey of self-discovery and growth. My educational details are as follows.
                     <div className='flex gap-4 py-4'>
-                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' ><a href='https://github.com/pooja-369'>Code</a></button>
-                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' ><a href='https://github.com/pooja-369'>Demo</a></button>
+                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg ' ><a href='https://github.com/pooja-369'>Code</a></button>
+                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg ' ><a href='https://github.com/pooja-369'>Demo</a></button>
                 </div>
                     </div>
                
@@ -53,8 +52,8 @@ function Projects() {
                 <div className='absolute inset-0 flex items-end bg-gradient-to-t from-black/60 to-transparent text-white'>
                     <div className='p-4'> My education has been a journey of self-discovery and growth. My educational details are as follows.
                     <div className='flex gap-4 py-4'>
-                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' ><a href='https://github.com/pooja-369'>Code</a></button>
-                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' ><a href='https://github.com/pooja-369'>Demo</a></button>
+                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg' ><a href='https://github.com/pooja-369'>Code</a></button>
+                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg ' ><a href='https://github.com/pooja-369'>Demo</a></button>
                 </div>
                     </div>
                
@@ -72,8 +71,8 @@ function Projects() {
                 <div className='absolute inset-0 flex items-end bg-gradient-to-t from-black/60 to-transparent text-white'>
                     <div className='p-4'> My education has been a journey of self-discovery and growth. My educational details are as follows.
                     <div className='flex gap-4  py-4'>
-                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' ><a href='https://github.com/pooja-369'>Code</a></button>
-                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg hidden  md:block' ><a href='https://github.com/pooja-369'>Demo</a></button>
+                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg ' ><a href='https://github.com/pooja-369'>Code</a></button>
+                    <button className='btn bg-slate-800 p-1.5 ring-offset-2 border-2 hover:bg-slate-900 ring-white rounded-lg ' ><a href='https://github.com/pooja-369'>Demo</a></button>
                 </div>
                     </div>
                
