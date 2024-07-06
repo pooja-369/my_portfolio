@@ -34,7 +34,7 @@ function HeroSection() {
         {/* right section */}
         <div className=" flex md:w-1/4 order-1 ">
          <div className='flex m-auto justify-center z-10 relative'>
-         <img src={myImage} alt="My Image"  className='rounded-full  min-h-80 z-10 shadow-xl shadow-blue-800'/>
+         <img src={myImage} alt="My Image"  className='flex justify-center items-center rounded-full  min-h-80 z-10 shadow-xl shadow-blue-800 md:animate-bounce-custom' />
 
          </div>
         </div>

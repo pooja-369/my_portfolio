@@ -8,6 +8,7 @@ import SkillSection from './components/SkillsSection'
 import ExperienceSection from './components/ExperienceSection'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
              <Route path="#ExperienceSection" element={<ExperienceSection />} />
              <Route path="#SkillsSection" element={<SkillSection />} />
              <Route path="#Projects" element={<Projects/>} />
+             <Route path='#contact' element={<Contact/>}/>
+
            </Routes>
        </Router>
 
@@ -34,6 +37,7 @@ function App() {
   <EducationSection id="ExperienceSection"/>
   <Projects id="Projects"/>
   <ExperienceSection id="ExperienceSection"/>
+  <Contact/>
   <Footer className="bg-black"/>
     {/* <Particle/> */}
 
