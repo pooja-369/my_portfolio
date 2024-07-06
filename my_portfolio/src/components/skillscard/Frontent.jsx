@@ -48,15 +48,10 @@ const Frontend = () => {
 
 
   const list =[
-    // {name:'C++',  source:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png'},
     {name:'CSS' ,source: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1024px-CSS3_logo.svg.png'},
-    // {name:'Express' ,source: '../assets/Skills Images/expressjs_logo.webp'},
-    // {name:'Figma' ,source: '../assets/Skills Images/figma-logo.png'},
-    // {name:'Github' ,source: '../assets/Skills Images/github.png'},
     {name:'html5' ,source: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png'},
     {name:'js', source:'https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png'},
     {name:'material Ui', source:'https://static-00.iconduck.com/assets.00/material-ui-icon-2048x1626-on580ia9.png'},
-    // {name:'node-js' , source :'../assets/Skills Images/Node.js_logo_2015.svg.png'},
     {name:'reactjs' , source:'https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png'},
     {name:'tailwindcss', source:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png'},
 
@@ -92,11 +87,11 @@ const Frontend = () => {
           className="text-center text-2xl font-bold"
         >
          
-          <div className="flex justify-center gap-3 flex-wrap mb-3 mt-5">
+          <div className="flex justify-center gap-3 flex-wrap mb-3 mt-5 px-5 ">
          
 
           {list.map(link => (
-            <div key={link.name} className="text-base font-thin rounded-lg border-2 border-white px-2 py-2 md:flex gap-2  justify-center items-center text-white">
+            <div key={link.name} className="text-base font-thin rounded-lg border-2 border-white px-2 py-2 flex gap-2  justify-center items-center text-white ">
           <img src={link.source} alt="photo"   className=' h-8 w-8z-10  '/>
           {link.name}
           </div>

@@ -2,8 +2,8 @@ import myImage from '../assets/fdbdd.jpg'
 import { TypeAnimation } from 'react-type-animation';
 function HeroSection() {
   return (
-    <div className="text-white flex items-center justify-center py-9 ">
-      <div className="flex justify-around items-center gap-3 w-full md:px-10 py-10 px-7 pr-7  flex-col md:flex-row ">
+    <div className="text-white flex items-center justify-center md:py-9 " id='HeroSection'>
+      <div className="flex justify-around items-center gap-3 w-full md:px-10 py-3 md:py-10 px-7 pr-7  flex-col md:flex-row ">
         {/* left section */}
         <div className=" md:w-1/2 py-10  order-2 ">
           <div className="md:text-5xl text-3xl font-bold md:leading-15">

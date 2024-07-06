@@ -90,7 +90,7 @@ const Others = () => {
          
 
           {list.map(link => (
-            <div key={link.name} className="text-base font-thin rounded-lg border-2 border-white px-2 py-2 md:flex gap-2  justify-center items-center text-white">
+            <div key={link.name} className="text-base font-thin rounded-lg border-2 border-white px-2 py-2 flex gap-2  justify-center items-center text-white">
           <img src={link.source} alt="photo"   className=' h-8 w-8z-10  '/>
           {link.name}
           </div>

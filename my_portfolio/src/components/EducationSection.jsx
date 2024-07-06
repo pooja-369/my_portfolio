@@ -2,7 +2,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 function EducationSection() {
   return (
-    <div className='text-white'>
+    <div className='text-white md:pt-10 pt-6' id='EducationSection'>
 
     <div className='py-10'>
     <div className='flex justify-center md:text-5xl text-3xl font-bold md:leading-15'>Education</div>
@@ -79,6 +79,8 @@ function EducationSection() {
   </VerticalTimelineElement>
 
 </VerticalTimeline>
+
+
     </div>
   )
 }
