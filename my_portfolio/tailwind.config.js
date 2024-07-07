@@ -20,11 +20,11 @@ export default {
       keyframes: {
         bounce: {
           '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-8%)' }, // Adjust -100% to your desired bounce height
+          '50%': { transform: 'translateY(-7%)' }, // Adjust -100% to your desired bounce height
         },
       },
       animation: {
-        'bounce-custom': 'bounce 8s infinite',
+        'bounce-custom': 'bounce 3s infinite',
       },
     },
   },

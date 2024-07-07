@@ -5,8 +5,9 @@ import { HashLink } from 'react-router-hash-link';
 
 function NavbarSection() {
     let Links = [
-        { name: 'Home', links: '#HeroSection' },
+        // { name: 'Home', links: '#HeroSection' },
         { name: 'Skills', links: '#SkillsSection' },
+        {name:'AboutUs' , links:'#AboutUs'},
         { name: 'Experience', links: '#ExperienceSection' },
         { name: 'Projects', links: '#Projects' },
         { name: 'Education', links: '#EducationSection' },

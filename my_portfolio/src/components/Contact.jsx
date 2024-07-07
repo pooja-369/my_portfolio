@@ -13,7 +13,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_sctlpnf",
-        "template_iocwlu6",
+        "template_t13nt79",
         form.current,
         "9TvmtH4EGx1HEcsip"
       )
@@ -66,7 +66,6 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                // name="user_name"
                 name="user_name"
                 style={{
                   // width: "100%",
